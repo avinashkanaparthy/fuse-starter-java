@@ -1,0 +1,17 @@
+---
+applications:
+- name: InterventionConfigurationUI
+  memory: 512M
+  instances: 1
+  
+  host: InterventionConfigurationUI
+     
+  path: ../RiskAdjustmentWeb/target/RiskAdjustmentInterventionConfigurationWeb-0.1.0.war
+
+  command:
+  env:      
+      inovalon_risk-adjustment_data-services_configuration-url: http://interventionconfigurationservice.apps.rs-nonprod-int-pcf.medassurant.local
+      inovalon_one_indices_url: http://indicesuat.inovalonone.com
+      inovalon_one_qsixl_url: http://QSIXLdemo.apps.az-nonprod-pcf.inovalon.com
+      inovalon_one_iporthd_url: http://iporthddemo.apps.az-nonprod-pcf.inovalon.com
+      inovalon_one_login_url: http://inovalononedemo.apps.rs-nonprod-int-pcf.medassurant.local/login.html
