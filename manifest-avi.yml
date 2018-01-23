@@ -8,7 +8,7 @@ applications:
      
   path: ..RiskAdjustmentWebtargetRiskAdjustmentInterventionConfigurationWeb-0.1.0.war
 
-  command:
+  command: test
   env:      
       inovalon_risk-adjustment_data-services_configuration-url httpinterventionconfigurationservice.apps.rs-nonprod-int-pcf.medassurant.local
       inovalon_one_indices_url httpindicesuat.inovalonone.com
