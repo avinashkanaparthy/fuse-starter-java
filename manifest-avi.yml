@@ -6,7 +6,7 @@ applications:
   
   host: InterventionConfigurationUI
      
-  path: ../RiskAdjustmentWeb/target/RiskAdjustmentInterventionConfigurationWeb-0.1.0.war
+  path: ../RiskAdjustmentWeb/target/RiskAdjustmentInterventionConfigurationWeb-0.1.0-SNAPSHOT-${build.number}.war
 
   command:
   env:      
